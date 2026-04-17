@@ -72,11 +72,11 @@ The application demonstrates core full-stack development concepts including REST
 6. Enter a student ID and click Get Student to retrieve a specific student
 
 ## API Endpoints
-GET       /students   Retrieve all students
-GET       /students/  Retrieve a single student
-POST      /students   Add a new student
-PUT       /students/  Update a student
-DELETE    /students/  Delete a student
+GET - /students - Retrieve all students
+GET - /students/ - Retrieve a single student
+POST - /students - Add a new student
+PUT - /students/ - Update a student
+DELETE - /students/ - Delete a student
 
 ## Folder Structure
 

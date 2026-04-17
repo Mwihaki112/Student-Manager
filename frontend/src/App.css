@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background: #56c90942;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* HEADING */
+.heading {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* FORM */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: 0.2s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #3c520a;
+  box-shadow: 0 0 5px rgba(60, 82, 10, 0.3);
+}
+
+/* BUTTONS */
+.btn {
+  padding: 10px;
+  background: #3c520a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btn:hover {
+  background: #58742d;
+}
+
+/* UPDATE BUTTON */
+.update {
+  background: #3c520a;
+}
+
+.update:hover {
+  background: #58742d;
+}
+
+/* SINGLE STUDENT RESULT */
+.single {
+  background: #eef6e6;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  border-left: 4px solid #58742d;
+}
+
+/* LIST */
+.list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* CARD */
+.card {
+  background: #f9f9f9;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border-left: 4px solid #58742d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s ease;
+}
+
+/* HOVER EFFECT */
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ACTION BUTTONS*/
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+/* EDIT BUTTON */
+.editBtn {
+  background: rgb(7, 110, 46);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.editBtn:hover {
+  background: #e68900;
+}
+
+/* DELETE BUTTON */
+.deleteBtn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  background: #c62828;
+}

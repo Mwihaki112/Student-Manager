@@ -72,7 +72,6 @@ The application demonstrates core full-stack development concepts including REST
 6. Enter a student ID and click Get Student to retrieve a specific student
 
 ## API Endpoints
-Method    Endpoint    Description
 GET       /students   Retrieve all students
 GET       /students/  Retrieve a single student
 POST      /students   Add a new student

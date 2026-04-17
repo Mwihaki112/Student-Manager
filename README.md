@@ -83,13 +83,13 @@ DELETE    /students/  Delete a student
 
 Flask-Assignment2/
 ├── backend/
-│   ├── app.py          # Flask application
-│   └── ...             # Models / routes
+│   ├── app.py   
+│   └── ...             
 │
 ├── frontend/
 │   ├── src/
-│   │   ├── App.jsx     # Main React component
-│   │   ├── App.css     # Styling
+│   │   ├── App.jsx     
+│   │   ├── App.css  
 │   │   └── main.jsx
 │   └── package.json
 │
